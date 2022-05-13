@@ -1,0 +1,27 @@
+5/8/2022:
+
+-when passing props, "props" is itself a keyword
+-check out this dudes website https://github.com/soumyajit4419/Portfolio
+-created a Projects section, now need to create Project cards to display in that section. use map() to render them
+-after getting the structure right, move text and stuff to data.json
+-sometime in the future, create a navbar
+-after all sections complete, use browser router
+-it feels better doing stuff from scratch. pick up ideas from tutorials.
+-don't go back and forth. stick to the plan of creating a single page app with sections. start with the structure and stuff. then get into design. layer by layer.
+
+5/9/2022:
+
+5/10/2022:
+-Project card skeleton created. need to style.
+
+5/11/2022:
+-Followed https://www.youtube.com/watch?v=7WwtzsSHdpI for ideas like 100vh sections with snap scroll
+-Attempted snap scroll but didn't work. Try putting sections in a container then applying snap scroll to that container. Then snap poisition to individual elements. Refer to ~27min on video
+
+5/12/2022:
+-removed 'sections' class from components
+-snap scroll didn't work because the scroll bar was not part of the body not 'sections' div (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working)
+-Project Cards have a scroll. need to investigate
+
+5/13/2022:
+-add Roboto font family to index.html <head>

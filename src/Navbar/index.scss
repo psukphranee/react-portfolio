@@ -1,0 +1,25 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    z-index: 2;
+    // padding: 10px 30px;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // height: 100%;
+        padding: 10px 30px;
+        
+        .left{
+            .logo{
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+

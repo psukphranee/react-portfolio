@@ -9,12 +9,17 @@ const Intro = (props) => {
 
     return(
         <div className='intro' id='intro'>
-            <h1>About</h1>
-            <div className='intro-content'>
-                <p>
-                {props.info.bio}
-                </p>
+            <div className="left">
+                <div className="imgContainer">
                 <img src={selfie} alt="selfie"/>
+                </div>
+            </div>
+            <div className="right">
+                <div className="wrapper">
+                    <h2>Hi there, I'm</h2>
+                    <h1>Panya Sukphranee</h1>
+                    <h3>Mathematics | Web Development</h3>
+                </div>
             </div>
         </div>
     )

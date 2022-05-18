@@ -7,7 +7,7 @@
     background-color: white;
     top: 0;
     z-index: 2;
-    // padding: 10px 30px;
+    transition: all .5s ease;
 
     .wrapper{
         display: flex;
@@ -23,6 +23,7 @@
             .logo{
                 font-size: 40px;
                 font-weight: 700;
+                color: inherit;
             }
 
             .itemContainer{
@@ -40,11 +41,14 @@
                 height: 25px;
                 justify-content: space-between;
                 cursor: pointer;
+                
+
                 span{
                     background-color: $mainColor;
                     width: 100%;
                     height: 3px;
                     transform-origin: left;
+                    transition: all .5s ease;
                 }
             }
         }

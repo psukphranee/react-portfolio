@@ -1,9 +1,10 @@
 import './App.scss';
 
-import About from './About'
+import Intro from './Intro'
 import Projects from './Projects'
 import Navbar from './Navbar'
 import Contact from './Contact'
+import Works from './Works'
 
 import data from './data.json'
 
@@ -16,9 +17,10 @@ function App() {
   return (
     <div className="App">
       <div className='sections'>
-        <About info={data.About} />
+        <Intro info={data.About} />
         <Navbar activeState={activeState} activeCallback={activeCallback} />
         <Projects />
+        <Works />
         <Contact />
       </div>
     </div>

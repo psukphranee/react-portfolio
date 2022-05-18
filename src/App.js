@@ -7,13 +7,17 @@ import Contact from './Contact'
 
 import data from './data.json'
 
+import { useState } from 'react';
+
 function App() {
+
+  const [activeState, activeCallback] = useState(false);
 
   return (
     <div className="App">
       <div className='sections'>
         <About info={data.About} />
-        <Navbar />
+        <Navbar activeState={activeState} activeCallback={activeCallback} />
         <Projects />
         <Contact />
       </div>

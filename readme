@@ -24,4 +24,10 @@
 -Project Cards have a scroll. need to investigate
 
 5/13/2022:
--add Roboto font family to index.html <head>
+-added Roboto font family to index.html <head>, some styles removed
+-n2 go back and add in the global styles color
+-https://github.com/gitname/react-gh-pages, followed instruction up to step 5 for deploying to gitHub pages.
+
+5/14/2022:
+-worked on navbar
+-next need to add smooth transition for the menu bar "X"

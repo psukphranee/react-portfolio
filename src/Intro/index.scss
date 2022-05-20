@@ -1,9 +1,9 @@
 .intro{
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     // flex-direction: column;
-    align-items: center;
-    background-color: aqua;
+    // align-items: center;
+    background-color: white;
 
     .left{
         flex: .5;
@@ -24,6 +24,40 @@
 
     .right{
         flex: .5;
+        position: relative;
+
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 50px;
+            width: 100%;
+            height: 100%;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-style: 35px;
+            }
+            h3{
+                font-style: 30px;
+            }
+            span{
+                font-size: inherit;
+            }
+
+        }
+
+        a{
+            position: absolute;
+            bottom: 10px;
+            .img{
+                width: 50px;
+            }
+        }
+        
     }
 }
 

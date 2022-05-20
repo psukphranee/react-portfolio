@@ -7,7 +7,7 @@ const Navbar = (props) => {
         <div className={'navbar ' + (props.activeState && "active")}>
             <div className='wrapper'>
                 <div className='left'>
-                    <a href="#about" className='logo'>
+                    <a href="#intro" className='logo'>
                         panya.
                     </a>
                     <div className='itemContainer'>

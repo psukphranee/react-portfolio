@@ -1,6 +1,8 @@
 import './index.scss'
 import selfie from '../images/santorini.png'
 import React from 'react';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { init } from 'ityped'
 
 const Intro = (props) => {
 
@@ -18,8 +20,11 @@ const Intro = (props) => {
                 <div className="wrapper">
                     <h2>Hi there, I'm</h2>
                     <h1>Panya Sukphranee</h1>
-                    <h3>Mathematics | Web Development</h3>
+                    <h3>Mathematics | <span>Web Development</span></h3>
                 </div>
+                <a href="#projects">
+                    <ExpandMoreIcon className="img"/>
+                </a>
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import selfie from '../images/santorini.png'
 import React from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { init } from 'ityped'
+import { useEffect, useRef } from 'react';
 
 const Intro = (props) => {
 

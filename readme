@@ -44,3 +44,10 @@
 -end 1:06:00
 -eye straining. need to stop and revisit. 
 -figure out how to do pull request
+
+5/20/2022
+-mergeed MacBookPro branch into remote
+-note from tutorial: "whenever using position absolute item, make parent position relative"
+-1:13:13. Need to watch video on useEffect
+-useEffect, hook to act when something changes. e.g. mount, some property changes
+-useRef, continue https://www.youtube.com/watch?v=t2ypzz6gJm0 

@@ -1,11 +1,12 @@
 import './App.scss';
 
-import Intro from './Intro'
-import Projects from './Projects'
-import Navbar from './Navbar'
-import Contact from './Contact'
-import Works from './Works'
-import Menu from './Menu'
+import Intro from './Components/Intro'
+import Projects from './Components/Projects'
+import Navbar from './Components/Navbar'
+import Contact from './Components/Contact'
+import Works from './Components/Works'
+import Menu from './Components/Menu'
+import Portfolio from './Components/Portfolio';
 
 import data from './data.json'
 
@@ -22,6 +23,7 @@ function App() {
       <div className='sections'>
         <Intro info={data.About} /> 
         <Projects />
+        <Portfolio />
         <Works />
         <Contact />
       </div>

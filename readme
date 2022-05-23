@@ -54,3 +54,10 @@
 
 5/21/2022
 -skipping the iTyped package because of (https://stackoverflow.com/questions/71991232/why-am-i-getting-double-letters-after-using-ityped-package-in-react-js)
+
+5/23/2022
+-1:28:00
+-replacing static items in Portfolio with mapped items from data.js
+-n2 figure out why the objects are not rendering => in the map callback, the arrow function needs enclosed in parenthesis. Parentheses implies "return"
+-Mobile App => Mobie Rampa UI Design is purple because that is the background color. looks like it cant pull the img resource
+-Works Section : Resume at 1:40:00 ish

@@ -1,0 +1,41 @@
+.works{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: crimson;
+}
+
+.works-content{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+    width: 75%;
+    height: 70%;
+
+    background-color: white;
+    border-radius: 10px;
+
+    .left{
+        flex: 4;
+        background-color: lime;
+        height: 100%;
+    }
+
+    .right{
+        flex: 8;
+    }
+
+    img{
+        width: 25%;
+        border-radius: 50%;
+    }
+
+    p{
+        width: 50%;
+    }
+}
+

@@ -10,9 +10,11 @@ const Works = (props) => {
         <div className='works' id='works'>
             <h1>Works</h1>
             <div className='works-content'>
-                <p>
-                
-                </p>
+                <div className='left'>
+                </div>
+                <div className='right'>
+                    
+                </div>
             </div>
         </div>
     )

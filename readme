@@ -61,3 +61,8 @@
 -n2 figure out why the objects are not rendering => in the map callback, the arrow function needs enclosed in parenthesis. Parentheses implies "return"
 -Mobile App => Mobie Rampa UI Design is purple because that is the background color. looks like it cant pull the img resource
 -Works Section : Resume at 1:40:00 ish
+
+5/24/2022:
+-1:48:00
+-instructor seems to be doing this on a laptop. it renders similar on the macbook but not imac
+-pushing upstream before heading off to work

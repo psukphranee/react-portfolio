@@ -1,23 +1,36 @@
 import './index.scss'
-import React from 'react';
+import React, { useEffect } from 'react';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import {worksData} from '../../data'
+import { Translate } from '@mui/icons-material';
+import { useState } from 'react';
 
 const Works = (props) => {
 
     var test = props.bio;
     console.log(test);
 
+    const [offset, setOffset] = useState(0);
+
+    useEffect(() => {
+        console.log(offset);
+    }
+    , [offset]);
+
+    function clickCallback(direction){
+        direction == "left" ? setOffset(offset - 10) : setOffset(offset + 10);
+    };
+    console.log(offset);
     return(
         <div className='works' id='works'>
             <h1>Works</h1>
 
-            <ArrowBackIosIcon className='arrow left' />
-            <ArrowForwardIosIcon className="arrow right" />
+            <ArrowBackIosIcon className='arrow left' onClick={() => clickCallback("left") }/>
+            <ArrowForwardIosIcon className="arrow right" onClick={() => clickCallback("right") }/>
 
-            <div className='slider'>
+            <div className="slider" style={ {transform : `translateX(${offset}vw)`} }>
                 {
                     worksData.map(
                         d => (

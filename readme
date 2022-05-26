@@ -67,3 +67,7 @@
 -instructor seems to be doing this on a laptop. it renders similar on the macbook but not imac
 -pushing upstream before heading off to work
 -watch and diagram the slider logic. an issue i have is that the CSS specs seem to be specific to the screen size.
+
+5/26/2022:
+-sliding arrow functionality complete understood. use of useEffect, useState understood
+-the backtick in thie inline style not so clear.

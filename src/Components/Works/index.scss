@@ -28,7 +28,8 @@
         display: flex;
         position: absolute;
         left: -100vw;
-        
+        transition: all 1s ease;
+
         .container{
             width: 100vh;
             display: flex;

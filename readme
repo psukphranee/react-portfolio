@@ -71,3 +71,6 @@
 5/26/2022:
 -sliding arrow functionality complete understood. use of useEffect, useState understood
 -the backtick in thie inline style not so clear.
+
+5/27/2022:
+-adding ease to sliders

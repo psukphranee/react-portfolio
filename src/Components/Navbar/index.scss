@@ -6,7 +6,7 @@
     position: fixed;
     background-color: white;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     transition: all .5s ease;
 
     .wrapper{
@@ -57,6 +57,7 @@
     &.active{
         background-color: $mainColor;
         color: white;
+        z-index: 4;
         .hamburger{
             
             span{

@@ -20,7 +20,7 @@ const Works = (props) => {
     , [offset]);
 
     function clickCallback(direction){
-        direction == "left" ? setOffset(offset - 10) : setOffset(offset + 10);
+        direction == "left" ? setOffset(offset - 100) : setOffset(offset + 100);
     };
     console.log(offset);
     return(

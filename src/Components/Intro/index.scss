@@ -1,9 +1,13 @@
+@import "../../global.scss";
+
 .intro{
     display: flex;
-    // justify-content: center;
-    // flex-direction: column;
-    // align-items: center;
     background-color: white;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left{
         flex: .5;
@@ -23,8 +27,15 @@
     }
 
     .right{
+        display: flex;
         flex: .5;
         position: relative;
+
+        @include mobile{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         .wrapper{
             display: flex;
@@ -34,13 +45,23 @@
             width: 100%;
             height: 100%;
 
+            @include mobile{
+                align-items: center;
+                padding-left: 0;
+            }
+
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+                @include mobile{
+                    margin: 10px 10px;
+                }
             }
+
             h2{
                 font-style: 35px;
             }
+
             h3{
                 font-style: 30px;
             }

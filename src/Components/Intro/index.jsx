@@ -12,16 +12,6 @@ const Intro = (props) => {
 
     const textRef = useRef();
 
-    // useEffect(() => {
-    //     init(textRef.current, {
-    //       showCursor: true,
-    //       backDelay: 1500,
-    //       backSpeed:60,
-    //       strings: ["Developer", "Designer", "Content Creator"],
-    //     });
-    //   }, []);
-    
-
     return(
         <div className='intro' id='intro'>
             <div className="left">

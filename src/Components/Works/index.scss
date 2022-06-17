@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .works{
     display: flex;
     justify-content: center;
@@ -7,15 +9,22 @@
     position: relative;
     transition: all ease .5s;
 
+    @include mobile{
+        flex-direction: column;
+    }
+    
     .arrow{
-        font-size: 100px;
         cursor: pointer;
         position: absolute;
-        background-color: skyblue;
-        color: white;
-        text-shadow: 4px;
-        boxShadow: 4;
+        color: blue;
         z-index: 2;
+        border-style: solid;
+        border-color: white;
+        fontSize: 100px;
+
+        @include mobile{
+            display: none;
+        }
 
         &.left{
             left: 100px;

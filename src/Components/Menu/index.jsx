@@ -13,6 +13,9 @@ export default function Menu({activeState, activeCallback}) {
                     <a href="#projects" onClick={()=> activeCallback(false)}>Projects</a>
                 </li>
                 <li>
+                    <a href="#portfolio" onClick={()=> activeCallback(false)}>Portfolio</a>
+                </li>
+                <li>
                     <a href="#contact" onClick={()=> activeCallback(false)}>Contact</a>
                 </li>
                 <li>

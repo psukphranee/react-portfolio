@@ -12,7 +12,7 @@ const Navbar = (props) => {
                     </a>
                     <div className='itemContainer'>
                         <Person className='icon' />
-                        <span>(222)222-2222</span>
+                        <span>(805)242-3252</span>
                     </div>
                 </div>
                 <div className='right'>

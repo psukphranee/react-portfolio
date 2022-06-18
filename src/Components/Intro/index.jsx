@@ -1,5 +1,5 @@
 import './index.scss'
-import selfie from '../../images/santorini.png'
+import selfie from '../../images/self_1.jpg'
 import React from 'react';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { init } from 'ityped';
@@ -16,7 +16,7 @@ const Intro = (props) => {
         <div className='intro' id='intro'>
             <div className="left">
                 <div className="imgContainer">
-                <img src={selfie} alt="selfie"/>
+                    <img src={selfie} alt="selfie"/>
                 </div>
             </div>
             <div className="right">

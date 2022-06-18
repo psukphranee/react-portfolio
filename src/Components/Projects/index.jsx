@@ -7,15 +7,17 @@ const Projects = (props) => {
 
     return(
         <div className='projects' id="projects">
-            <h1>Projects</h1>
+            <h1>Machine Learning Projects</h1>
             <div className='project-content'>
-                { 
+                <div className="project-category">
+                </div> 
+                {/* { 
                     x.map(
                         (currentValue, index) => (
                             <ProjectCard ProjectTitle={index} />
                         )
                     ) 
-                }
+                } */}
             </div>
         </div>
     )

@@ -98,7 +98,7 @@ Things to Modify (Desktop Version. Think about responsive design later):
         -Change to Machine Learning Projects xxxxxxxxx
         -Create slider for: MATLAB, Python Sci-Kit Learn, Tensorflow
             What should slider look like? 
-            Create <ul> selector for each category. Style the <li>
+            Create <ul> selector for each category. Style the <li> XXXX
     
     Portfolio:
         -Change Featured to "Front End"

@@ -16,12 +16,15 @@
         .imgContainer{
             width: 100%;
             height: 100%;
-            // border-radius: 50%;
-            background-color: crimson;
-            float: right;
+            overflow-y: hidden;
+            float: center;
+
             img{
-                float: right;
+                height: 100%;
                 width: 100%;
+                object-fit: none;
+                object-position: 35% center;
+                border-radius: 50%;
             }
         }
     }

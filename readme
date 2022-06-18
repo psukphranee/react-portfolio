@@ -86,8 +86,25 @@ It's been a minute. Where did I leave off? I don't think I've finished the tutor
 Ok. So it looks like I did. Some parts of the video were skipped because I didn't want to include specific styling. The last part was including Responsive web design. I need to review and practice this. 
 Learning from the tutorial is done. I will definitely need to review some parts but from now its just working on design/layout that I want.
 
-Things to Modify:
+Things to Modify (Desktop Version. Think about responsive design later):
 
-    (Desktop Version. Think about responsive design later.)
-    Navbar
-    Intro Section:I want to change the profile picture. 
+    Navbar:
+        -Phone number. xxxxxxx
+
+    Intro Section:
+        Change the profile picture.  xxxxxxxxx
+
+    Projects:
+        -Change to Machine Learning Projects xxxxxxxxx
+        -Create slider for: MATLAB, Python Sci-Kit Learn, Tensorflow
+            What should slider look like? 
+            Create <ul> selector for each category. Style the <li>
+    
+    Portfolio:
+        -Change Featured to "Front End"
+
+    Contacts:
+        -see whats up
+        -name, email, message, submit
+        -need to watch video
+        -EmailJs

@@ -98,7 +98,11 @@ Things to Modify (Desktop Version. Think about responsive design later):
         -Change to Machine Learning Projects xxxxxxxxx
         -Create slider for: MATLAB, Python Sci-Kit Learn, Tensorflow
             What should slider look like? 
+                -make card with title and description
+                -the card container should be static for desktop/laptop screens. maybe have a maximum size. 
             Create <ul> selector for each category. Style the <li> XXXX
+                -need to change cursor to pointer
+
     
     Portfolio:
         -Change Featured to "Front End"

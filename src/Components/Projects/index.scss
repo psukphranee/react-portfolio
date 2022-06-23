@@ -32,11 +32,16 @@
             padding: 0px;
 
             li{
-                background-color: $mainColor;
-                color: white;
+                color: $mainColor;
                 padding: 10px;
                 margin: 10px;
                 border-radius: 10px;
+                cursor: pointer;
+
+                &.active{
+                    background-color: $mainColor;
+                    color: white;
+                }
             }
 
         }

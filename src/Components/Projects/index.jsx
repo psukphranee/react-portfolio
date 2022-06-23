@@ -1,9 +1,13 @@
 import './index.scss'
 import ProjectCard from './Project Card';
+import { useState, useEffect } from 'react';
 
 const Projects = (props) => {
 
     let x = [1,2,3,4,5,6,7,8,9,10];
+
+    const [selected, setSelected] = useState("MATLAB");
+    
 
     return(
         <div className='projects-section' id="projects">
@@ -11,9 +15,9 @@ const Projects = (props) => {
             <div className='project-container'>
                 <div className="project-categories">
                     <ul>
-                        <li>MATLAB</li>
-                        <li>Sci-kit Learn</li>
-                        <li>Tensorflow</li>
+                        <li onClick={() => {setSelected("MATLAB")}} className={(selected === "MATLAB" ? "active" : "")}>MATLAB</li>
+                        <li onClick={() => setSelected("SKL")}>Sci-kit Learn</li>
+                        <li onClick={() => setSelected("TSF")}>Tensorflow</li>
                     </ul>
                 </div>
                 <div className='project-items'>

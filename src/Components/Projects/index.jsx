@@ -18,7 +18,9 @@ const Projects = (props) => {
                     </ul>
                 </div>
                 <div className='project-items'>
-                    test-test-testicle
+                    <div className='projectCard'>
+                        <ProjectCard />
+                    </div>
                 </div>
                 {/* { 
                     x.map(

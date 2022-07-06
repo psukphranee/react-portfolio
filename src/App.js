@@ -23,9 +23,9 @@ function App() {
       <div className='sections'>
         <Intro info={data.About} /> 
         <Projects />
-        <Portfolio />
+        {/* <Portfolio />
         <Works />
-        <Contact />
+        <Contact /> */}
       </div>
     </div>
   );

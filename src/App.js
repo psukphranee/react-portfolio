@@ -9,6 +9,7 @@ import Menu from './Components/Menu'
 import Portfolio from './Components/Portfolio';
 
 import data from './data.json'
+import projects_data from './data/projects_data.json'
 
 import { useState } from 'react';
 
@@ -22,10 +23,10 @@ function App() {
       <Menu activeState={activeState} activeCallback={activeCallback}/>
       <div className='sections'>
         <Intro info={data.About} /> 
-        <Projects />
-        <Portfolio />
+        <Projects projects_data={projects_data.Projects} />
+        {/* <Portfolio />
         <Works />
-        <Contact />
+        <Contact /> */}
       </div>
     </div>
   );

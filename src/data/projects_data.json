@@ -1,0 +1,52 @@
+{
+    "Projects": [
+      {
+        "Title": "Classification Performance Measures",
+        "Description": "Evaluate performance metrics on a digit classification problem. Why accuracy is not a good measure. Evaluate precision and recall, ROC Curve, etc.",
+        "url": "https://github.com/psukphranee/Machine-Learning-Projects/blob/master/Python%20SKLearn/Classification/Classification_Performance_Measures.ipynb",
+        "Tags": "python, scikit-learn, machine learning"
+      },
+      {
+        "Title": "MATLAB Machine Learning",
+        "Description": "Repo of MATLAB folders containing implementations of ML algorithm. Part of Coursera ML course by Andrew Ng.",
+        "url": "https://github.com/psukphranee/Machine-Learning-Projects/blob/master/Python%20SKLearn/Classification/Classification_Performance_Measures.ipynb",
+        "Tags": "MATLAB, machine learning"
+      },
+      {
+        "Title": "Housing Price Prediction",
+        "Description": "Pull data, build preporcessing and training pipelines. Fine-tune hyperparamenters using grid search.",
+        "url": "https://github.com/psukphranee/Machine-Learning-Projects/blob/master/Python%20SKLearn/End-to-End%20Machine%20Learning%20Project/Housing%20Dataset.ipynb",
+        "Tags": "python, scikit-learn, machine learning"
+      },
+      {
+        "Title": "Iris Dataset",
+        "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
+        "url": "https://github.com/psukphranee/Machine-Learning-Projects/blob/master/Python%20SKLearn/Training%20Models/Iris%20Dataset.ipynb",
+        "Tags": "python, scikit-learn, machine learning"
+      },
+      {
+        "Title": "Knights Tour",
+        "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
+        "url": "https://github.com/psukphranee/CPP11/tree/master/C%2B%2B%20Challenges/Knights%20Tour",
+        "Tags": "C++, puzzle"
+      },
+      {
+        "Title": "Machine Language",
+        "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
+        "url": "https://github.com/psukphranee/CPP11/tree/master/C%2B%2B%20Challenges/Machine%20Language",
+        "Tags": "C++, puzzle"
+      },
+      {
+        "Title": "Poison",
+        "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
+        "url": "https://github.com/psukphranee/CPP11/tree/master/C%2B%2B%20Challenges/Poison",
+        "Tags": "C++, puzzle"
+      },
+      {
+        "Title": "Towers of Hanoi",
+        "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
+        "url": "https://github.com/psukphranee/CPP11/tree/master/C%2B%2B%20Challenges/Towers%20of%20Hanoi",
+        "Tags": "C++, puzzle"
+      }
+    ]
+  }

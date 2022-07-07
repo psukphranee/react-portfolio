@@ -3,21 +3,37 @@
     text-align: center;
     height: 200px;
     margin: 20px;
-}
-
-.project-title{
-    height: 30%;
-    background-color: skyblue;
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-description{
-    height: 70%;
+    border-radius: 5%;
     border-style: solid;
+    border-color: #FF8210;
+    overflow-y: hidden;
+
+    .project-title{
+        height: 30%;
+        background-color: #FF8210;
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 16px;
+        }
+        padding-top: 2px;
+        padding-bottom: 2px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+    }
+    
+    .project-description{
+        height: 70%;
+        padding: 5%;
+        p{
+            font-size: 14px;
+            text-align:left;
+            word-wrap: break-word;
+        }
+
+    }
+
 }
 
 a{

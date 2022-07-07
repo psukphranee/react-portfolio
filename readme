@@ -112,3 +112,29 @@ Things to Modify (Desktop Version. Think about responsive design later):
         -name, email, message, submit
         -need to watch video
         -EmailJs
+
+July 6 2022:
+Assessing the situation. Making clear goals.
+-Comment out Contacts, Works, Portfolio
+
+-Rename "Machine Learning Projects" to "Programming Projects"
+--Rename "Sci-Kit Learn" to "Python/Sci-kit Learn"
+--Add C++ Button
+
+-Change profile picture; Maybe change to Pi-Sigma logo.
+-------------------------------
+-Create project card
+
+July 7, 2022:
+
+-Create JSON file using JSON data generator. To supply into projects.
+
+Dont use the category menu right now. Worry about populating the container with projects and then think about categorizing.
+
+Go thru each repo get data.
+
+Create a file to feed into JSON generator called projects_data_raw
+
+need to delete stuff out of repo.
+
+-creted json data file and piped that into the projects component.

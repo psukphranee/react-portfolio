@@ -121,5 +121,16 @@ Assessing the situation. Making clear goals.
 -------------------------------
 -Create project card
 
--Upload to a branch of psukphranee.github.io
---take notes on errors and figure out how to resolve.
+July 7, 2022:
+
+-Create JSON file using JSON data generator. To supply into projects.
+
+Dont use the category menu right now. Worry about populating the container with projects and then think about categorizing.
+
+Go thru each repo get data.
+
+Create a file to feed into JSON generator called projects_data_raw
+
+need to delete stuff out of repo.
+
+-creted json data file and piped that into the projects component.

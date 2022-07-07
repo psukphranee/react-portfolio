@@ -3,8 +3,10 @@ import ProjectCard from './Project Card';
 
 const Projects = (props) => {
 
-    let x = [1,2,3,4,5,6,7,8,9,10];
-
+    const projects_data = props.projects_data;
+ 
+    // projects_data.map((item, index) => {console.log(item)});
+    
     return(
         <div className='projects-section' id="projects">
             <h1>Programming Projects</h1>
@@ -18,9 +20,7 @@ const Projects = (props) => {
                     </ul>
                 </div>
                 <div className='project-items'>
-                    <div className='projectCard'>
-                        <ProjectCard />
-                    </div>
+                    {projects_data.map((item, index) => {return <ProjectCard project={item} key={index}/>})}
                 </div>
                 {/* { 
                     x.map(

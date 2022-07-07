@@ -10,20 +10,30 @@
     .project-title{
         height: 30%;
         background-color: #FF8210;
-        color: white;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 16px;
+        }
+        padding-top: 2px;
+        padding-bottom: 2px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
     }
     
     .project-description{
         height: 70%;
+        padding: 5%;
+        p{
+            font-size: 14px;
+            text-align:left;
+            word-wrap: break-word;
+        }
+
     }
 
 }
-
-
 
 a{
     text-decoration: none;

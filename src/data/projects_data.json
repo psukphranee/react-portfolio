@@ -47,6 +47,13 @@
         "Description": "Train regression models on iris datase. Plot visuals: decision boundaries, datapoints, etc.",
         "url": "https://github.com/psukphranee/CPP11/tree/master/C%2B%2B%20Challenges/Towers%20of%20Hanoi",
         "Tags": "C++, puzzle"
+      },
+      {
+        "Title": "Fashion MNIST",
+        "Description": "Build, train, and evaluate Sequential model with two hidden layers on Fashion MNIST dataset.",
+        "url": "https://github.com/psukphranee/Machine-Learning-Projects/blob/master/Fashion_MNIST_2.ipynb",
+        "Tags": "Python, Keras, Tensorflow"
       }
+      
     ]
   }
